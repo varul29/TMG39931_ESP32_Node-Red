@@ -107,7 +107,7 @@ void tmgLight(){
   float green = data[5] * 256.0 + data[4];
   float blue = data[7] * 256.0 + data[6];
 
-  float c = data[8];
+  unsigned int c = data[8];
   
   // Output data to serial monitor       
   Serial.print("Green Color Luminance : ");
